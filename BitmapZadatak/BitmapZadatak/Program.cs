@@ -16,15 +16,13 @@ namespace BitmapZadatak
         {
             BitmapB bitmap = new BitmapB();
 
-            int counter = 0;
-
-            bitmap.BitmapBW(counter);
+            bitmap.BitmapBW();
         }
     }
 
     public class BitmapB
     {
-        public void BitmapBW(int counter)
+        public void BitmapBW()
         {
             Console.WriteLine("Enter the name of the bitmap you want to make black and white: ");
             string bitmapName = Console.ReadLine();
@@ -38,7 +36,6 @@ namespace BitmapZadatak
             {        
                 Console.WriteLine("Image loaded.");
                 bitmap = (Bitmap)Image.FromFile(filePath);
-                counter++;
             }
             else
             {
@@ -55,19 +52,14 @@ namespace BitmapZadatak
                 string[] sizeSplit = size.Split('x');
 
                 bitmap = new Bitmap(Convert.ToInt32(sizeSplit[0]), Convert.ToInt32(sizeSplit[1]));
-
-                counter++;
             }
 
             var bitmapBW = bitmap.Clone(new Rectangle(0, 0, bitmap.Width, bitmap.Height), PixelFormat.Format1bppIndexed);
 
 
-            for(int i = 0; i < counter; i++)
-            {
-                string filePathSave = String.Format("C:/Users/Reroot/Desktop/Zadatak/bitmap{0}.bmp", i);
+            string filePathSave = String.Format("C:/Users/Reroot/Desktop/Zadatak/bitmap_{0}_bw.bmp", bitmapName);
 
-                bitmapBW.Save(filePathSave);
-            }
+            bitmapBW.Save(filePathSave);
 
             bitmap.Dispose();
         }
