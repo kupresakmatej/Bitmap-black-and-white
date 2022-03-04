@@ -1,0 +1,8 @@
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\obj\Debug\BitmapZadatak.csproj.AssemblyReference.cache
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\obj\Debug\BitmapZadatak.csproj.SuggestedBindingRedirects.cache
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\obj\Debug\BitmapZadatak.csproj.CoreCompileInputs.cache
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\bin\Debug\BitmapZadatak.exe.config
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\bin\Debug\BitmapZadatak.exe
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\bin\Debug\BitmapZadatak.pdb
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\obj\Debug\BitmapZadatak.exe
+C:\Users\Reroot\Desktop\Zadatak\BitmapZadatak\BitmapZadatak\obj\Debug\BitmapZadatak.pdb
