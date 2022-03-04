@@ -26,7 +26,7 @@ namespace BitmapZadatak
         {
             Bitmap bitmap = (Bitmap)Image.FromFile(@"C:\Users\Reroot\Desktop\Zadatak\bitmap.bmp");
 
-            if (bitmap != null)
+            if (bitmap == null)
             {
                 Console.WriteLine("Image loaded.");
             }
